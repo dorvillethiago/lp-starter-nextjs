@@ -76,17 +76,9 @@ export const HeroHeader = () => {
                             <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
                                 <Button
                                     asChild
-                                    variant="outline"
                                     size="sm">
                                     <Link href="#">
-                                        <span>Login</span>
-                                    </Link>
-                                </Button>
-                                <Button
-                                    asChild
-                                    size="sm">
-                                    <Link href="#">
-                                        <span>Sign Up</span>
+                                        <span>Call To Action</span>
                                     </Link>
                                 </Button>
                             </div>
