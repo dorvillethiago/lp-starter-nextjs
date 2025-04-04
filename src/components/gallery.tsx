@@ -27,7 +27,7 @@ export default function Gallery() {
                     {images.map((image, index) => (
                         <div className="flex" key={index}>
                             <img
-                                className="size-76 rounded-lg"
+                                className="size-76 rounded-lg object-cover"
                                 src={image}
                                 alt="Product"
                                 height="auto"
